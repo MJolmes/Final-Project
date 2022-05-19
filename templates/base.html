@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'main.css')}}">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');</style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Lobster&display=swap');</style>
+    
+    <title>Marcus' Site</title>
+</head>
+<body>
+
+    <script src="{{url_for('static', filename = 'app.js')}}"></script>
+
+<div class="banner">
+    <div class="navleft">
+        <div class="navleft1">
+            <div class="namebutton">
+                <a href="{{ url_for('my_view.page1')}}">My Site</a>
+            </div>
+        </div>
+
+        <div class="navleft2">
+            <img class="headerpic" src="static/unsplash.jpg">
+            <!-- <img src="static/unsplash.jpg"> -->
+        </div>
+    </div>
+
+    <div class="navright">
+        <div class="buttonbox">
+            <a href="{{ url_for('my_view.page1')}}">Home</a>
+            <a href="{{ url_for('my_view.page2')}}">Page2</a>
+            <a href="{{ url_for('my_view.page3')}}">Page3</a>
+            <a href="{{ url_for('my_view.page4')}}">Page4</a>
+            <a href="{{ url_for('my_view.page5')}}">Page5</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    
+{% block content %}
+{% endblock %}
+</body>
+</html>
