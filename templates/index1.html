@@ -3,13 +3,13 @@
 
 <div class="headingblock">
     <div class="headingleftbox">
-        <h1>-----</h1>
+        <h4>Home</h4>
     </div>
     <div class="headingmidbox">
-        <h2>This is the home page</h2>
+        <h4>Home</h4>
     </div>
     <div class="headingrightbox">
-        <h3>-----</h3>
+        <h4>Home</h4>
     </div>
 </div>
 
@@ -18,27 +18,68 @@
         <div class="stage3">
             <div class="mainbox">
                 <div class="contentblock">
-                    <div>
-                        <img class="p1pic1" src="static/unsplash.jpg">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sapiente quam molestias dicta porro, quasi obcaecati perferendis voluptatibus quis ipsam ducimus odit numquam expedita tempora!</p>
+                    <div class="contentblocka">
+                        <div class="carbox">
+                            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="6000" style="background-image: url(static/images/axiomface.jpg)">
+                                    <img src="static/images/axiomface.jpg" class="d-block w-100" alt="axiomface">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    <h5>Axiom Verge</h5>
+                                    <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="6000" style="background-image: url(static/images/isaacbackg.jpg)">
+                                    <img src="static/images/isaacbackg.jpg" class="d-block w-100" alt="isaacbackground">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    <h5>Isaac: Repentence</h5>
+                                    <p></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="6000" style="background-image: url(static/images/osboat.jpg)">
+                                    <img src="static/images/osboat.jpg" class="d-block w-100" alt="oneshot">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    <h5>OneShot</h5>
+                                    <p></p>
+                                    </div>
+                                </div>
+                                </div>
+                                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                                </button> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contentblockb">
+                        <p><br>Welcome to Indie Fan! Your bite-sized chunk of indipendant goodness. 
+                        We love small games because more often than not, what you see is what you get. And if you know what you like, there's plenty on offer to keep you satisfied. No micro-transactions, no overblown hype trains, no drama. Are you looking for unfiltered creativity, original ideas, beautiful art and great mechanics? We've got you covered right here! Please visit our contact page where you can enter polls to have your favourite indie games showcased.  </p>
                     </div>
                 </div>
 
                 <div class="contentblock2">
-                    <div>
-                        <img class="p1pic1" src="static/unsplash.jpg">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum veritatis et saepe quos alias, eos, consequatur recusandae consectetur quisquam molestias, amet natus excepturi id minus!</p>
+                    <div class="contentblock2a">
+                            <img class="lowerpic1" src="static/images/tsbannermic.png">
+                    </div>
+                    <div class="contentblock2b">
+                        <p>This week. 
+                            We showcase an absolute gem. Oneshot. It's atmospheric, it's impactful and it gets meta in ways we never expected. You don't want to miss out on this experience. <br>
+                        We look at an updated classic with The Binding of Isaac:Repentence. New overhauls, new items and new difficulty? <br>
+                    Last but not least, we present your pick of the week. Retro stlye, good story, nice visuals and bangin music? Yep. All developed by one man? Yes!</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
-
-
-
-
 
 {% endblock %}

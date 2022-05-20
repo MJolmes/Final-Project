@@ -9,6 +9,10 @@ app.register_blueprint(my_view)
 def page_not_found(e):
     return render_template("404.html", e=e)
 
+@app.errorhandler(500)
+def server_down():
+    return render_template("500.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True, port=8000)
