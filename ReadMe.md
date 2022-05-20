@@ -6,4 +6,4 @@ Front End Repo - https://github.com/MJolmes/innovate_portfolio/tree/main/fronten
 
 Kanban - https://trello.com/b/ob50CeeV/marcus-full-stack
 
-Heroku - https://dashboard.heroku.com/apps/mjsite/activity
+Heroku - https://mjsite.herokuapp.com/
